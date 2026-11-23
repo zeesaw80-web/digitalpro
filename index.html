@@ -1565,6 +1565,72 @@ body.light-mode nav ul a.active {
     }
 
 }
+/* SEO Services Section */
+
+.seo-services {
+    padding: 80px 20px;
+    background: #111827;
+    text-align: center;
+}
+
+.seo-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.seo-services h2 {
+    font-size: 36px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.seo-intro {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.seo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.seo-card {
+    padding: 30px 20px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.seo-card:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+}
+
+.seo-card h3 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+.seo-card p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+    .seo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .seo-services h2 {
+        font-size: 28px;
+    }
+}
    </style>
 </head>
 <!-- BACK TO TOP BUTTON -->
@@ -1607,7 +1673,46 @@ body.light-mode nav ul a.active {
 
         <a href="#services" class="btn">Explore Our Services</a>
     </section>
+<!-- SEO Services Section -->
+<section id="seo-services" class="seo-services">
+    <div class="seo-container">
 
+        <h2>Professional SEO Services</h2>
+
+        <p class="seo-intro">
+            We help businesses grow online through smart SEO strategies,
+            keyword research and website optimization.
+        </p>
+
+        <div class="seo-grid">
+
+            <div class="seo-card">
+                <h3>Keyword Research</h3>
+                <p>
+                    We find relevant keywords that people search for
+                    on Google to help your business reach the right audience.
+                </p>
+            </div>
+
+            <div class="seo-card">
+                <h3>On-Page SEO</h3>
+                <p>
+                    We optimize website content, headings, titles and
+                    descriptions to improve search engine understanding.
+                </p>
+            </div>
+
+            <div class="seo-card">
+                <h3>Technical SEO</h3>
+                <p>
+                    We improve website structure, mobile usability,
+                    page performance and technical issues.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
     <!-- SERVICES -->
     <section id="services">
 
