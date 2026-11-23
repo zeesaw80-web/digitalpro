@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+    <title>DigitalPro | Seo & Digital Marketing Services</title>
+<meta name="description" content="DigitalPro provides SEO, digital marketing and modern web development solutions to help businesses grow online.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* NAVBAR */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #111c33;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            color: #38bdf8;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        nav ul a:hover {
+            color: #38bdf8;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 18px;
+            max-width: 650px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #7dd3fc;
+            transform: translateY(-3px);
+        }
+
+        /* GENERAL SECTION */
+        section {
+            padding: 80px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .section-title span {
+            color: #38bdf8;
+        }
+
+        .section-description {
+            text-align: center;
+            color: #cbd5e1;
+            margin-bottom: 45px;
+            line-height: 1.7;
+        }
+
+        /* SERVICES */
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .service-box {
+            background: #1e293b;
+            padding: 35px 25px;
+            border-radius: 15px;
+            width: 300px;
+            transition: 0.3s;
+            border: 1px solid #29364d;
+        }
+
+        .service-box:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+        }
+
+        .service-box h3 {
+            color: #38bdf8;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        .service-box p {
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        /* ABOUT */
+        .about {
+            background: #111c33;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .about-content p {
+            color: #cbd5e1;
+            line-height: 2;
+            font-size: 17px;
+        }
+
+        /* CONTACT */
+        .contact-container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            background: #1e293b;
+            color: white;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #38bdf8;
+        }
+
+        .contact-form textarea {
+            min-height: 130px;
+            resize: vertical;
+        }
+
+        #form-message {
+            color: #38bdf8;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111c33;
+            color: #94a3b8;
+        }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 18px;
+                padding: 20px;
+            }
+
+            nav ul {
+                gap: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav ul a {
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .section-title {
+                font-size: 30px;
+            }
+
+            .service-box {
+                width: 100%;
+            }
+        }
+    /* PROFESSIONAL HERO DESIGN */
+
+.hero {
+    background:
+        radial-gradient(circle at top, #1e3a5f 0%, #0f172a 65%);
+    min-height: 85vh;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: #cbd5e1;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.hero .btn {
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+.hero .btn:hover {
+    box-shadow: 0 0 35px rgba(56, 189, 248, 0.5);
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+/* PROFESSIONAL SERVICE CARDS */
+
+.services {
+    gap: 30px;
+}
+
+.service-box {
+    background: linear-gradient(145deg, #1e293b, #111c33);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+    border-radius: 18px;
+    padding: 35px;
+    width: 310px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    border-color: #38bdf8;
+    box-shadow: 0 15px 35px rgba(56, 189, 248, 0.12);
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+    color: #38bdf8;
+}
+
+.service-box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+/* CARD TOP GLOW */
+
+.service-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90, transparent, #38bdf8, transparent);
+}
+/* PROFESSIONAL ABOUT SECTION */
+
+.about {
+    background: linear-gradient(180deg, #111c33, #0f172a);
+    border-top: 1px solid rgba(56, 189, 248, 0.12);
+    border-bottom: 1px solid rgba(56, 189, 248, 0.12);
+}
+
+.about h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
+
+.about p {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 2;
+    color: #cbd5e1;
+}
+
+.about {
+    padding: 100px 20px;
+}
+
+@media (max-width: 600px) {
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+}/* DIGITALPRO CONTACT - NEW DESIGN */
+
+#contact {
+    background: linear-gradient(135deg, #0f172a, #172554, #075985);
+    padding: 100px 20px;
+}
+
+#contact .section-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#contact .section-description {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-bottom: 50px;
+}
+
+/* FORM BOX */
+
+#contact .contact-container {
+    max-width: 750px;
+    margin: auto;
+    background: rgba(15, 23, 42, 0.55);
+    padding: 35px;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    border-radius: 22px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+/* INPUT FIELDS */
+
+#contact .contact-form {
+    gap: 20px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    padding: 20px;
+    border-radius: 12px;
+    background: #111c33;
+    border: 1px solid #334155;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.15);
+    background: #172554;
+}
+
+#contact .contact-form textarea {
+    min-height: 180px;
+}
+
+/* BUTTON */
+
+#contact .contact-form button {
+    padding: 18px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #38bdf8, #67e8f9);
+    color: #082f49;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+#contact .contact-form button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.3);
+}
+
+/* MESSAGE */
+
+#form-message {
+    font-size: 16px;
+    font-weight: bold;
+    color: #67e8f9;
+    margin-top: 20px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    #contact {
+        padding: 65px 15px;
+    }
+
+    #contact .contact-container {
+        padding: 20px;
+    }
+
+    #contact .section-title {
+        font-size: 34px;
+    }
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 22px;
+    background: rgba(30, 41, 59, 0.85);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 14px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.15);
+}
+
+#contact textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+/* SEND BUTTON */
+
+#contact button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 14px;
+    background: #67e8f9;
+    color: #0f172a;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background: #38bdf8;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(56, 189, 248, 0.25);
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 600px) {
+    #contact {
+        padding: 65px 15px;
+    }
+
+    #contact h2 {
+        font-size: 34px;
+    }
+
+    #contact p {
+        font-size: 15px;
+    }
+}
+/* PROFESSIONAL NAVBAR */
+
+nav {
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+    padding: 20px 8%;
+}
+
+/* LOGO */
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    text-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+/* NAV LINKS */
+
+nav ul {
+    gap: 30px;
+}
+
+nav ul a {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+/* HOVER UNDERLINE */
+
+nav ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #38bdf8;
+    transition: width 0.3s ease;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+nav ul a:hover {
+    color: #38bdf8;
+}
+
+/* NAVBAR MOBILE */
+
+@media (max-width: 700px) {
+    nav {
+        padding: 18px 15px;
+    }
+
+    nav ul {
+        gap: 18px;
+    }
+}
+/* PREMIUM SERVICE CARDS */
+
+.service-box {
+    padding: 40px 30px;
+    min-height: 260px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #16243b, #0f172a);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+.service-box h3 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.service-box p {
+    color: #cbd5e1;
+    line-height: 1.9;
+}
+
+/* ICON DESIGN */
+
+.service-box h3::before {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.service-box:nth-child(1) h3::before {
+    content: "🔍";
+}
+
+.service-box:nth-child(2) h3::before {
+    content: "📈";
+}
+
+.service-box:nth-child(3) h3::before {
+    content: "💻";
+}
+
+/* CARD HOVER */
+
+.service-box:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(56, 189, 248, 0.15);
+}
+
+/* ICON ANIMATION */
+
+.service-box:hover h3::before {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+/* STATISTICS SECTION */
+
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    background: linear-gradient(135deg, #111c33, #0c2345);
+    padding: 70px 8%;
+}
+
+.stat-box {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    padding: 35px 20px;
+    text-align: center;
+    border-radius: 18px;
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+    transition: 0.3s;
+}
+
+.stat-box:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.12);
+}
+
+.stat-box h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+.stat-box p {
+    font-size: 16px;
+    color: #cbd5e1;
+}
+
+@media (max-width: 600px) {
+    .stats {
+        gap: 15px;
+        padding: 50px 15px;
+    }
+
+    .stat-box {
+        min-width: 140px;
+        padding: 25px 15px;
+    }
+
+    .stat-box h2 {
+        font-size: 32px;
+    }
+}
+  /* TESTIMONIALS SECTION */
+
+.testimonials {
+    background: #0f172a;
+    padding: 90px 8%;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.testimonial-card {
+    background: linear-gradient(145deg, #1e293b, #111c33);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+    border-radius: 20px;
+    padding: 30px;
+    width: 320px;
+    transition: 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+    box-shadow: 0 12px 30px rgba(56, 189, 248, 0.1);
+}
+
+.stars {
+    color: #fbbf24;
+    font-size: 22px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.testimonial-card p {
+    color: #cbd5e1;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+.testimonial-card h3 {
+    color: #38bdf8;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.testimonial-card span {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .testimonial-card {
+        width: 100%;
+    }
+} 
+/* BACK TO TOP BUTTON */
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: 0.3s;
+    z-index: 999;
+}
+
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#backToTop:hover {
+    background: #7dd3fc;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 600px) {
+    #backToTop {
+        right: 15px;
+        bottom: 20px;
+        width: 45px;
+        height: 45px;
+    }
+}
+/* SCROLL REVEAL ANIMATION */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+  /* PROFESSIONAL FOOTER */
+
+.footer {
+    background: #080f1e;
+    padding: 60px 8% 20px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-brand,
+.footer-links,
+.footer-services {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-brand h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-brand h2 span {
+    color: #00d4ff;
+}
+
+.footer-brand p {
+    color: #94a3b8;
+    line-height: 1.8;
+    max-width: 300px;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    display: block;
+    color: #94a3b8;
+    text-decoration: none;
+    margin: 12px 0;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #00d4ff;
+    padding-left: 5px;
+}
+
+.footer-services p {
+    color: #94a3b8;
+    margin: 12px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    color: #64748b;
+    font-size: 14px;
+}
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 100px 20px 60px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* Services */
+    .services-container {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    /* Statistics */
+    .stats-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stat-box {
+        width: 100%;
+    }
+
+    /* Testimonials */
+    .testimonials-container {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        width: 100%;
+    }
+
+    /* About */
+    .about-content {
+        padding: 20px;
+    }
+
+    /* Contact */
+    #contact .contact-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
+/* HAMBURGER MENU */
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #00d4ff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* MOBILE MENU */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 220px;
+        background: #0f172a;
+        padding: 20px;
+        border: 1px solid #00d4ff;
+        border-radius: 12px;
+        z-index: 1000;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+}
+/* THEME BUTTON */
+
+.theme-toggle {
+    background: transparent;
+    border: 1px solid #00d4ff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* LIGHT MODE */
+
+body.light-mode {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+body.light-mode nav {
+    background: #ffffff;
+}
+
+body.light-mode .service-box,
+body.light-mode .stat-box,
+body.light-mode .testimonial-card,
+body.light-mode .contact-container {
+    background: #ffffff;
+    color: #0f172a;
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3 {
+    color: #0f172a;
+}
+
+body.light-mode p {
+    color: #475569;
+}
+
+body.light-mode .footer {
+    background: #e2e8f0;
+}
+/* FIX LIGHT MODE HEADINGS */
+
+body.light-mode .hero h1,
+body.light-mode .hero h2,
+body.light-mode .hero h3 {
+    color: white;
+}
+
+/* Blue text highlight */
+body.light-mode .hero h1 span {
+    color: #00d4ff;
+}
+
+/* Section headings */
+body.light-mode #services .section-title,
+body.light-mode #testimonials .section-title,
+body.light-mode #contact .section-title {
+    color: #0f172a;
+}
+
+/* About section */
+body.light-mode #about h2 {
+    color: #0f172a;
+}
+
+/* Blue background areas */
+body.light-mode .stats h2,
+body.light-mode .stats .counter {
+    color: #00d4ff;
+}
+/* LIGHT MODE NAVBAR FIX */
+
+body.light-mode nav ul li a {
+    color: #0f172a !important;
+}
+
+/* Hover effect */
+body.light-mode nav ul li a:hover {
+    color: #00bcd4 !important;
+}
+
+/* Navbar background */
+body.light-mode nav {
+    background: #ffffff !important;
+}
+
+/* Mobile menu background */
+body.light-mode nav ul {
+    background: #ffffff;
+}
+  /* TYPING ANIMATION STYLE */
+
+#typingText {
+    color: #00d4ff !important;
+    border-right: 3px solid #00d4ff;
+    padding-right: 5px;
+    animation: blinkCursor 0.7s infinite;
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-color: transparent;
+    }
+} 
+/* HERO ANIMATED BACKGROUND */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: rgba(0, 212, 255, 0.15);
+    filter: blur(100px);
+    border-radius: 50%;
+    top: 10%;
+    left: -100px;
+    animation: floatGlow 6s ease-in-out infinite alternate;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 100, 255, 0.12);
+    filter: blur(100px);
+    border-radius: 50%;
+    bottom: 0;
+    right: -80px;
+    animation: floatGlow 8s ease-in-out infinite alternate-reverse;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes floatGlow {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(60px, -40px);
+    }
+}
+/* PREMIUM SERVICE CARD ANIMATION */
+
+.service-box {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease,
+                border 0.4s ease;
+    border: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+/* Hover Effect */
+
+.service-box:hover {
+    transform: translateY(-12px);
+    border: 1px solid #00d4ff;
+    box-shadow: 0 15px 40px rgba(0, 212, 255, 0.18);
+}
+
+/* Icon Animation */
+
+.service-box::before {
+    transition: transform 0.4s ease;
+}
+
+.service-box:hover::before {
+    transform: scale(1.15);
+}
+
+/* Light Mode */
+
+body.light-mode .service-box:hover {
+    box-shadow: 0 15px 35px rgba(0, 150, 200, 0.15);
+    border-color: #00bcd4;
+} 
+   /* SCROLL PROGRESS BAR */
+
+#scrollProgress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background: linear-gradient(90deg, #00d4ff, #6366f1);
+    z-index: 99999;
+    box-shadow: 0 0 10px #00d4ff;
+    transition: width 0.1s linear;
+}
+/* CUSTOM CURSOR */
+
+#customCursor {
+    width: 14px;
+    height: 14px;
+    background: #00d4ff;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999999;
+    box-shadow: 0 0 15px #00d4ff;
+    transform: translate(-50%, -50%);
+}
+
+/* NAVBAR SCROLL EFFECT */
+
+nav {
+    transition: all 0.4s ease;
+}
+
+nav.scrolled {
+    padding: 12px 8%;
+    background: rgba(8, 15, 30, 0.96);
+    box-shadow: 0 5px 25px rgba(0, 212, 255, 0.12);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+}
+/* ACTIVE NAVBAR LINK */
+
+nav ul a.active {
+    color: #00d4ff !important;
+}
+
+nav ul a.active::after {
+    width: 100%;
+}
+
+/* LIGHT MODE */
+
+body.light-mode nav ul a.active {
+    color: #0097b5 !important;
+}
+/* WEBSITE PRELOADER */
+
+#preloader {
+    position: fixed;
+    inset: 0;
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+#preloader h1 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#preloader h1 span {
+    color: #00d4ff;
+}
+
+#preloader p {
+    color: #94a3b8;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #1e293b;
+    border-top: 4px solid #00d4ff;
+    border-radius: 50%;
+    animation: spinLoader 0.8s linear infinite;
+}
+
+@keyframes spinLoader {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+/* FAQ SECTION */
+
+#faq {
+    padding: 100px 8%;
+    background: #111c32;
+}
+
+#faq h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#faq h2 span {
+    color: #00d4ff;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+    background: #1e293b;
+    color: white;
+    border: none;
+    font-size: 17px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question span {
+    color: #00d4ff;
+    font-size: 24px;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    background: #0f172a;
+}
+
+.faq-answer p {
+    padding: 20px;
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+}
+
+.faq-item.active .faq-question span {
+    transform: rotate(45deg);
+}
+/* RESPONSIVE DESIGN */
+
+/* TABLETS */
+@media (max-width: 992px) {
+
+    .hero {
+        padding: 100px 5%;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #about {
+        padding: 70px 5%;
+    }
+
+}
+
+/* MOBILE PHONES */
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 5%;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 100px 5% 60px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    #services,
+    #about,
+    #contact,
+    #faq {
+        padding: 60px 5%;
+    }
+
+    #faq h2 {
+        font-size: 30px;
+    }
+
+    .faq-question {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    .stats-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero .btn {
+        padding: 12px 20px;
+    }
+
+    nav .logo {
+        font-size: 22px;
+    }
+
+    #faq h2 {
+        font-size: 26px;
+    }
+
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* PROFESSIONAL FOOTER */
+
+.main-footer {
+    background: #080e1c;
+    padding: 60px 8% 20px;
+    border-top: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-about h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-about h2 span {
+    color: #00d4ff;
+}
+
+.footer-about p {
+    color: #94a3b8;
+    line-height: 1.8;
+    max-width: 350px;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #00d4ff;
+    transform: translateX(5px);
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #1e293b;
+    padding-top: 20px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* MOBILE FOOTER */
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .main-footer {
+        padding: 45px 6% 20px;
+    }
+
+}
+   </style>
+</head>
+<!-- BACK TO TOP BUTTON -->
+
+<button id="backToTop" title="Back to Top">↑</button>
+<body>
+<!-- WEBSITE LOADER -->
+
+<div id="preloader">
+    <h1>Digital<span>Pro</span></h1>
+    <div class="loader"></div>
+    <p>Loading Experience...</p>
+</div>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">DigitalPro</div>
+<button id="themeToggle" class="theme-toggle">☀️</button>
+       <button class="menu-toggle" id="menuToggle">☰</button>
+
+<ul id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+    </nav>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+        <h1>
+    Grow Your Business
+    <br>
+    <span id="typingText"></span>
+</h1>
+
+        <p>
+            We help businesses grow through digital marketing,
+            SEO and modern website solutions.
+        </p>
+
+        <a href="#services" class="btn">Explore Our Services</a>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+
+        <h2 class="section-title">Our <span>Services</span></h2>
+
+        <p class="section-description">
+            We provide digital solutions to help your business grow.
+        </p>
+
+        <div class="services">
+
+            <div class="service-box">
+                <h3>SEO</h3>
+                <p>
+                    Improve your website visibility and ranking
+                    on search engines.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <h3>Digital Marketing</h3>
+                <p>
+                    Reach more people and grow your business
+                    through digital marketing.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <h3>Web Development</h3>
+                <p>
+                    Build modern, beautiful and responsive
+                    websites for your business.
+                </p>
+            </div>
+
+        </div>
+    </section>
+<!-- STATISTICS -->
+
+<section class="stats" id="stats">
+<div class="stat-box">
+    <h2 class="counter" data-target="150">0</h2>
+    <p>Projects Completed</p>
+</div>
+
+<div class="stat-box">
+    <h2 class="counter" data-target="50">0</h2>
+    <p>Happy Clients</p>
+</div>
+
+<div class="stat-box">
+    <h2 class="counter" data-target="10">0</h2>
+    <p>Services</p>
+</div>
+
+<div class="stat-box">
+    <h2 class="counter" data-target="95">0%</h2>
+    <p>Client Satisfaction</p>
+</div>
+    
+</section>
+   <!-- TESTIMONIALS -->
+
+<section class="testimonials" id="testimonials">
+
+    <h2 class="section-title">Client <span>Reviews</span></h2>
+
+    <p class="section-description">
+        What people say about our services.
+    </p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                DigitalPro helped improve our online presence.
+                Their work was professional and easy to understand.
+            </p>
+            <h3>Ahmed Khan</h3>
+            <span>Business Owner</span>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                The website design was modern, clean and easy
+                to use. I really liked the overall experience.
+            </p>
+            <h3>Usman Ali</h3>
+            <span>Startup Founder</span>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                Their digital marketing ideas helped us understand
+                how to reach more customers online.
+            </p>
+            <h3>Bilal Ahmed</h3>
+            <span>Marketing Client</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+
+            <h2 class="section-title">About <span>DigitalPro</span></h2>
+
+            <p>
+                DigitalPro is focused on helping businesses build
+                their online presence. We aim to provide modern
+                websites, SEO and digital marketing solutions
+                to help businesses reach more people online.
+            </p>
+
+        </div>
+
+    </section>
+<!-- FAQ SECTION -->
+<section id="faq">
+    <h2>Frequently Asked <span>Questions</span></h2>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What services do you provide?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>We provide SEO, digital marketing and website development services.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Why is SEO important?
+            <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>SEO helps websites improve their visibility in search engines and attract visitors.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How can I contact DigitalPro?
+            <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>You can contact us through our contact form to discuss your project.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact <span>Us</span></h2>
+
+        <p class="section-description">
+            Have a project in mind? Let's work together.
+        </p>
+
+        <div class="contact-container">
+
+            <form class="contact-form" id="contactForm">
+
+               <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+    minlength="3"
+>
+
+<input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+>
+
+<textarea
+    name="message"
+    placeholder="Your Message"
+    required
+    minlength="10"
+></textarea>
+
+<button type="submit">Send Message</button>
+            </form>
+
+            <p id="form-message"></p>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+   <!-- PROFESSIONAL FOOTER -->
+<footer class="main-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h2>Digital<span>Pro</span></h2>
+            <p>
+                We help businesses grow online with SEO,
+                digital marketing and modern web solutions.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com/" target="_blank">Facebook</a>
+            <a href="https://instagram.com/" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 DigitalPro. All Rights Reserved.</p>
+    </div>
+
+</footer>
+</footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const contactForm = document.getElementById("contactForm");
+        const formMessage = document.getElementById("form-message");
+
+        contactForm.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            formMessage.textContent =
+                "Thank you! Your form is working.";
+
+            contactForm.reset();
+        });
+   // BACK TO TOP FUNCTION
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 300) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+});
+
+backToTop.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+// SCROLL REVEAL
+
+const revealElements = document.querySelectorAll(
+    ".service-box, .stat-box, .testimonial-card, .about-content, .section-title, .section-description"
+);
+
+revealElements.forEach(function(element) {
+    element.classList.add("reveal");
+});
+
+function revealOnScroll() {
+    revealElements.forEach(function(element) {
+        const windowHeight = window.innerHeight;
+        const elementTop = element.getBoundingClientRect().top;
+
+        if (elementTop < windowHeight - 100) {
+            element.classList.add("active");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+
+revealOnScroll();
+  const counters = document.querySelectorAll(".counter");
+
+const startCounters = () => {
+    counters.forEach(counter => {
+        const target = Number(counter.dataset.target);
+        let current = 0;
+
+        const increment = Math.max(1, Math.ceil(target / 100));
+
+        const timer = setInterval(() => {
+            current += increment;
+
+            if (current >= target) {
+                current = target;
+                clearInterval(timer);
+            }
+
+            counter.textContent =
+                current + (target === 95 ? "%" : "+");
+
+        }, 20);
+    });
+};
+
+const statsSection = document.querySelector("#stats");
+
+if (statsSection) {
+    const statsObserver = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) {
+            startCounters();
+            statsObserver.disconnect();
+        }
+    });
+
+    statsObserver.observe(statsSection);
+}
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+});
+
+navLinks.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+        navLinks.classList.remove("show");
+    });
+});
+const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+
+    if (document.body.classList.contains("light-mode")) {
+        themeToggle.textContent = "🌙";
+    } else {
+        themeToggle.textContent = "☀️";
+    }
+});
+ // TYPING ANIMATION
+
+const typingText = document.getElementById("typingText");
+
+const words = [
+    "SEO Expert",
+    "Digital Marketer",
+    "Web Developer"
+];
+
+let wordIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+function typeEffect() {
+
+    const currentWord = words[wordIndex];
+
+    if (!deleting) {
+        typingText.textContent = currentWord.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === currentWord.length) {
+            deleting = true;
+            setTimeout(typeEffect, 1500);
+            return;
+        }
+
+        setTimeout(typeEffect, 100);
+
+    } else {
+        typingText.textContent = currentWord.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+            deleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            setTimeout(typeEffect, 400);
+            return;
+        }
+
+        setTimeout(typeEffect, 50);
+    }
+}
+
+typeEffect();
+// SCROLL PROGRESS
+
+window.addEventListener("scroll", () => {
+
+    const scrollTop = window.scrollY;
+
+    const pageHeight =
+        document.documentElement.scrollHeight -
+        window.innerHeight;
+
+    const progress =
+        pageHeight > 0 ? (scrollTop / pageHeight) * 100 : 0;
+
+    document.getElementById("scrollProgress").style.width =
+        progress + "%";
+
+});
+// CUSTOM CURSOR MOVEMENT
+
+const customCursor = document.getElementById("customCursor");
+
+document.addEventListener("mousemove", function(e) {
+    customCursor.style.left = e.clientX + "px";
+    customCursor.style.top = e.clientY + "px";
+});
+
+document.addEventListener("mouseenter", function() {
+    customCursor.style.opacity = "1";
+});
+// NAVBAR SCROLL EFFECT
+
+const navbar = document.querySelector("nav");
+
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+// ACTIVE NAVBAR LINKS
+
+const sections = document.querySelectorAll("section[id]");
+const navItems = document.querySelectorAll("#navLinks a");
+
+window.addEventListener("scroll", function() {
+
+    let currentSection = "";
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 150;
+        const sectionBottom = sectionTop + section.offsetHeight;
+
+        if (window.scrollY >= sectionTop &&
+            window.scrollY < sectionBottom) {
+
+            currentSection = section.getAttribute("id");
+        }
+    });
+
+    navItems.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + currentSection) {
+            link.classList.add("active");
+        }
+    });
+
+});
+// WEBSITE LOADER
+
+window.addEventListener("load", function() {
+    const preloader = document.getElementById("preloader");
+
+    preloader.classList.add("hide");
+
+    setTimeout(function() {
+        preloader.style.display = "none";
+    }, 600);
+});
+// FAQ ACCORDION
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item => {
+    const question = item.querySelector(".faq-question");
+
+    question.addEventListener("click", () => {
+        item.classList.toggle("active");
+    });
+});
+</script>
+
+<div id="customCursor"></div>
+<div id="scrollProgress"></div>
+
+</body>
+</html>
