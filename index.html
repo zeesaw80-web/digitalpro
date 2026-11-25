@@ -2224,15 +2224,18 @@ body.light-mode .main-footer .footer-bottom p {
 
         <div class="contact-container">
 
-            <form class="contact-form" id="contactForm">
+           <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
 
-               <input
-    type="text"
-    name="name"
-    placeholder="Your Name"
-    required
-    minlength="3"
->
+     <input type="hidden" name="access_key" value="66647ff1-53cc-43ec-884c-abba54e96f01">
+     <input type="hidden" name="subject" value="New Message from DigitalPro Website">
+     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+        minlength="3"
+    >
 
 <input
     type="email"
@@ -2294,20 +2297,38 @@ body.light-mode .main-footer .footer-bottom p {
 
 </footer>
 </footer>
+<!-- JAVASCRIPT -->
+    const contactForm = 
+    document.getElementById("contactForm");
+const formMessage =
+ document.getElementById("form-message");
 
-    <!-- JAVASCRIPT -->
-    <script>
-        const contactForm = document.getElementById("contactForm");
-        const formMessage = document.getElementById("form-message");
+contactForm.addEventListener("submit", async function(event) {
+    event.preventDefault();
 
-        contactForm.addEventListener("submit", function(event) {
-            event.preventDefault();
+    formMessage.textContent = "Sending message...";
 
-            formMessage.textContent =
-                "Thank you! Your form is working.";
+    const formData = new FormData(contactForm);
 
-            contactForm.reset();
+    try {
+        const response = await fetch(contactForm.action, {
+            method: "POST",
+            body: formData
         });
+
+        const result = await response.json();
+
+        if (result.success) {
+            formMessage.textContent = "Message sent successfully!";
+            contactForm.reset();
+        } else {
+            formMessage.textContent = "Message could not be sent. Please try again.";
+        }
+
+    } catch (error) {
+        formMessage.textContent = "Something went wrong. Please try again.";
+    }
+});
    // BACK TO TOP FUNCTION
 
 const backToTop = document.getElementById("backToTop");
