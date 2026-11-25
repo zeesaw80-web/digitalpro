@@ -1947,6 +1947,18 @@ body.light-mode .testimonial-card:hover {
 }
 .footer-about p {
     color: #cbd5e1;
+}/* FINAL FOOTER CONTRAST FIX */
+
+/* Dark Mode */
+body:not(.light-mode) .main-footer .footer-about p,
+body:not(.light-mode) .main-footer .footer-bottom p {
+    color: #e2e8f0 !important;
+}
+
+/* Light Mode */
+body.light-mode .main-footer .footer-about p,
+body.light-mode .main-footer .footer-bottom p {
+    color: #334155 !important;
 }
    </style>
 </head>
